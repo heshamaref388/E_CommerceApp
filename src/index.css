@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+body{
+  font-family: 'Montserrat Alternates', cursive;
+  background-image: url(./Images/light-patten.svg);
+}
+
+nav,footer,.cart-customize,.brand-item{
+  background-color: #eee;
+}
+.navbar {
+  /* background-color: var(--light-color) !important; */
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.hhhh{
+  margin-bottom: 80px;
+
+}
+.cursol{
+  cursor: pointer;
+}
+
+footer img{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.cart-customize .btn{
+  transition: transform 1s, opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.cart-customize:hover .btn{
+  opacity: 1;
+  transform: translateY(0);
+}
+.w-60{
+    width: 65%;
+}
+
+.videoTag {
+    border-radius: 10px;
+   /* height: 100px; */
+}
+
+.cart-customize:hover{
+  box-shadow: 15px 15px 15px lightblue !important;
+}
+
+.brand-item:hover{
+  box-shadow: 15px 15px 15px lightblue !important;
+}
+
+.bg-main {
+  background-color: #0AAD0A !important;
+}
+
+.text-main{
+  color: #0AAD0A !important;
+}
+
+.star-main{
+  color: #ffc908 !important;
+}
+
+.numCustomize{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.wishCustomize{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+
+.fa-regular,.fa-solid{
+  cursor: pointer !important;
+}
+
+.fa-regular:hover{
+  color: #dc3545 !important;
+  
+}
+
+.orderPayment{
+  width: 250px;
+  height: 250px;
+  border: 2px solid rgb(54, 187, 112);
+}
+
+.order{
+  border: 2px solid rgb(54, 187, 112);
+}
+
+.forgetPass:hover{
+  color: #198754 !important;
+  font-weight: 700;
+}
+
+.signIn:hover{
+  color: #198754 !important;
+  font-weight: 700;
+}
+
+.fa-eye{
+  cursor: pointer;
+  color: #198754 !important;
+}
+
+.nav-link:hover{
+  color: #198754 !important;
+  /* font-weight: 500; */
+}
+
+
+
+.videoTag {
+    border-radius: 10px;
+   /* height: 100px; */
+}
+.slick-slide {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-slide {
+    width: 50%;
+  }
+} 
+
+
+.features-item {
+    background-color: #fff;
+    box-shadow: 0 5px 5px -6px rgb(0 0 0 / 9%), 0 -5px 5px -8px rgb(0 0 0 / 4%);
+    padding: 25px 20px;
+    transition: .3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    height: 130px;
+   
+}
+
+.help-item {
+    height: 300px;
+    background-color: #0AAD0A;
+}
+
+.features .features-item::before,
+.features .features-item::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.features .features-item::before {
+    height: 25px;
+    width: 25px;
+    background-color: #740097;
+    left: -20px;
+    top: 10%;
+}
+
+.features .features-item:hover::before {
+    left: -5px;
+    opacity: 1;
+}
+
+.features .features-item::after {
+    height: 40px;
+    width: 40px;
+    background-color: #4338ca;
+    right: -40px;
+    top: 70%;
+}
+
+.features .features-item:hover::after {
+    right: -15px;
+    opacity: 1;
+}
+.scailImage{
+  transition: all .8s;
+
+}
+
+.scailImage:hover{
+transform: scale(1.2);
+cursor: pointer;
+}
+
+.discount{
+  margin-top: 100px;
+}
+.w-1{
+  width: .8%;
+}
+.line{
+  left: -40px;
+height: 100%;
+}
+.bg-gray{
+  background-color: ghostwhite;
+}
+.text-6xl{
+  font-size: 33px;
+  font-weight: 600;
+  /* opacity: .8; */
+}
+.text-8xl{
+  font-size: 100px;
+  font-weight: 800;
+  opacity: .8;
+}
+.bg-hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.284), rgba(0, 0, 0, 0.632)), url("./Images/dejong.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+
+
+
+.image-wrapper{
+  margin-top: -60px;
+}
+/* 
+@media (min-width: 768px) {
+  
+
+    .features-item {
+        width: calc(100% / 2 - 10px);
+    }
+
+
+ 
+}
+
+@media (min-width: 992px) {
+    .features-item {
+        width: calc(100% / 3 - 10px);
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .features-item {
+        width: calc(100% / 4 - 10px);
+    }
+
+    
+} */
